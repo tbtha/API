@@ -1,0 +1,4 @@
+CREATE DATABASE cursos;
+
+CREATE TABLE IF NOT EXISTS cursos (id SERIAL PRIMARY KEY, nombre VARCHAR(50), nivel
+INT, fecha VARCHAR(50), duracion INT);
